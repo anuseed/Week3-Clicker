@@ -1,11 +1,11 @@
 * {
   background-color: #7b3f00;
 }
-/* body {
-  /* display: grid;
+body {
+  display: grid;
   grid-template-columns: 200px 200px;
-  column-gap: 50px; */
-} */
+  column-gap: 50px;
+}
 
 header {
   display: flex;
@@ -24,8 +24,9 @@ h2 {
   font-family: Cookie Dough, Arial, Helvetica, sans-serif;
   font-size: 30px;
   border: solid 2px burlywood;
+  padding-left: 50px;
   padding: 20px;
-  /* align-content: center; */
+  align-content: center;
 }
 #cookies-per-second-container {
   font-family: Howdy Lemon, Arial, Helvetica, sans-serif;
@@ -69,10 +70,6 @@ h2 {
   align-content: space-between;
   margin: 5px;
 }
-
-/* #item-id {
-  height: 200px;
-} */
 
 .main-div {
   display: flex;
