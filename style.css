@@ -2,25 +2,97 @@
   background-color: #7b3f00;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 h1 {
   color: bisque;
   font-family: Cookie Dough, Arial, Helvetica, sans-serif;
+  font-size: 50px;
 }
 
-/*  make sure to add media queries! */
-@media (max-width: 450px) {
+h2 {
+  color: bisque;
+  font-family: Cookie Dough, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  border: solid 2px burlywood;
+  padding: 20px;
+}
+#cookies-per-second-container {
+  font-family: Howdy Lemon, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+#cookies-per-second-value {
+  font-size: 40px;
+}
+
+#cookie-button {
+  border-radius: 50%;
+  box-shadow: 0 0 20px 2px whitesmoke;
+}
+#cookie-image {
+  border-radius: 50%;
+}
+#cookie-count {
+  font-family: Howdy Lemon, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#cookie-count-value {
+  color: whitesmoke;
+  font-family: Cookie Dough, "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+#reset-button {
+  background-color: whitesmoke;
+  font-family: Howdy Lemon, Arial, Helvetica, sans-serif;
+  font-size: large;
+  height: 50px;
+  width: 80px;
+}
+
+#shop-upgrades {
+  font-family: Howdy Lemon, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+#shop-upgrades.button {
+  width: 20px;
+}
+
+@media (max-width: 400px) {
   body {
     width: 300px;
+    padding: 30px;
   }
 }
 
 @media (min-width: 760px) {
   body {
-    width: 500px;
+    width: 700px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    width: 800px;
+    padding-left: 100px;
   }
 }
 
 @font-face {
   font-family: Cookie Dough;
   src: url("Cookie\ Dough.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Howdy Lemon;
+  src: url(Howdy\ Lemon.otf) format("opentype");
 }
