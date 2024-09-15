@@ -1,11 +1,17 @@
 * {
   background-color: #7b3f00;
 }
+/* body {
+  /* display: grid;
+  grid-template-columns: 200px 200px;
+  column-gap: 50px; */
+} */
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 200px;
 }
 h1 {
   color: bisque;
@@ -19,6 +25,7 @@ h2 {
   font-size: 30px;
   border: solid 2px burlywood;
   padding: 20px;
+  /* align-content: center; */
 }
 #cookies-per-second-container {
   font-family: Howdy Lemon, Arial, Helvetica, sans-serif;
@@ -53,17 +60,33 @@ h2 {
 }
 
 #shop-upgrades {
+  border: solid 2px burlywood;
+  width: fit-content;
   font-family: Howdy Lemon, Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  padding: 20px;
-  margin: 20px;
+  margin: 5px;
 }
 
-#shop-upgrades.button {
-  width: 20px;
+/* #item-id {
+  height: 200px;
+} */
+
+.main-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.upgrades-box {
+  padding: 20px;
+  padding-top: 50px;
+}
+.buy-button {
+  height: 50px;
+  width: 50px;
 }
 
 @media (max-width: 400px) {
